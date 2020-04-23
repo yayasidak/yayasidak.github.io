@@ -64,6 +64,49 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-hexo博客发布工具使用简介" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/04/23/hexo%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/" class="article-date">
+  <time datetime="2020-04-23T08:27:04.928Z" itemprop="datePublished">2020-04-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/04/23/hexo%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/">hexo博客发布工具使用简介</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>通过github在hexo上搭建个人博客的使用说明连接：<a href="https://www.jianshu.com/p/390f202c5b0e" target="_blank" rel="noopener">https://www.jianshu.com/p/390f202c5b0e</a></p>
+<p>1、在source的__post目录下添加需要发布的md文章（md文件撰写可通过typero）</p>
+<p>2、完成文件撰写后，在对应的目录文件夹下先执行</p>
+<p>hexo clean 删除以前的残留</p>
+<p>hexo g 生成md文件对应的网页静态文件</p>
+<p>hexo s &amp;后台运行hexo server服务器，提供本地网页内容查看，查看网址为<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p>
+<p>hexo d 将就绪的博客发布到github上对应的个人主义上</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/04/23/hexo%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/" data-id="ck9cidxt20000w29yhnoka1qx" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-第一个Python爬虫调试心得" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/04/20/%E7%AC%AC%E4%B8%80%E4%B8%AAPython%E7%88%AC%E8%99%AB%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/" class="article-date">
@@ -86,104 +129,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="第一个Python爬虫调试心得"><a href="#第一个Python爬虫调试心得" class="headerlink" title="第一个Python爬虫调试心得"></a>第一个Python爬虫调试心得</h1><p>1、对于登录类型的表单提交没有注意到还需要提交隐藏的信息，否则会出现server直接返回200成功，但是一直无法正确访问其他页面，每次访问都调到了登录页面上。隐藏提交的信息可以从chrome浏览器上的from data上</p>
-<p><img src="https:////note.youdao.com/src/A1199FC81B7F4D899E7A03278CDD8311" alt="img"></p>
+        <p>1、对于登录类型的表单提交没有注意到还需要提交隐藏的信息，否则会出现server直接返回200成功，但是一直无法正确访问其他页面，每次访问都调到了登录页面上。隐藏提交的信息可以从chrome浏览器上的from data上</p>
+<p>![image-20200423163151055](/Users/shenhanbin/Library/Application Support/typora-user-images/image-20200423163151055.png)</p>
 <p>2、使用charles工具抓不到https数据包（这是由于http报文外部还套着一层SSL的壳，在不知道秘钥解析情况下无法获取https报文数据），查看具体数据包可通过chrome浏览器的检查–&gt;network–&gt;链接–&gt;headers查看。</p>
 <p>3、访问的网站如果发生重定向，返回值是302</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/20/%E7%AC%AC%E4%B8%80%E4%B8%AAPython%E7%88%AC%E8%99%AB%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/" data-id="ck9chn7n80000st9ybren1q7t" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-myblog" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/04/20/myblog/" class="article-date">
-  <time datetime="2020-04-20T03:35:15.581Z" itemprop="datePublished">2020-04-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/20/myblog/">myblog</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<h2 id="title-First-Night"><a href="#title-First-Night" class="headerlink" title=" title: First Night"></a> title: First Night</h2><blockquote>
-<p>我有一头<strong>小毛驴</strong>，可是我从来都不骑。</p>
-</blockquote>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/20/myblog/" data-id="ck9chn7np0002st9y18q06x2n" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/04/20/hello-world/" class="article-date">
-  <time datetime="2020-04-20T03:26:07.823Z" itemprop="datePublished">2020-04-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/20/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/20/hello-world/" data-id="ck9chn7nn0001st9yfffj4ef1" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/20/%E7%AC%AC%E4%B8%80%E4%B8%AAPython%E7%88%AC%E8%99%AB%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/" data-id="ck9cidxt70001w29y4r9t1n5o" class="article-share-link">Share</a>
       
       
     </footer>
@@ -224,15 +178,11 @@
       <ul>
         
           <li>
+            <a href="/2020/04/23/hexo%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B/">hexo博客发布工具使用简介</a>
+          </li>
+        
+          <li>
             <a href="/2020/04/20/%E7%AC%AC%E4%B8%80%E4%B8%AAPython%E7%88%AC%E8%99%AB%E8%B0%83%E8%AF%95%E5%BF%83%E5%BE%97/">第一个Python爬虫调试心得</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/20/myblog/">myblog</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/20/hello-world/">Hello World</a>
           </li>
         
       </ul>
